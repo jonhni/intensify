@@ -12,7 +12,9 @@ $ npm i -S intensify
 ```js
 import {intensify} from 'intensify';
 
-intensify({})
+intensify(0)
+=> false
+intensify(null)
 => false
 intensify('')
 => false
