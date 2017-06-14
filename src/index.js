@@ -11,7 +11,7 @@ export const intensify = (weakValue) => {
     return false;
   } else if(weakValue === false) {
     return false;
-  } else if(weakValue === NaN) {
+  } else if(Number.isNaN(weakValue)) {
     return false;
   } else {
     return true;
