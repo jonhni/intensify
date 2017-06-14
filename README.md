@@ -1,9 +1,9 @@
 # intensify.js
 Make it true, make it false!
 Intensifies it's argument:
-Makes Truthy stuff true, and Falsy stuff False
+falsy stuff to false, truthy stuff to true
 
-Todo: Add casual mode, and intense mode (default)
+Todo: Add intense mode that makes it as false as possible! (empty objects, empty arrays, functions that returns falsy stuff)
 
 **Install**
 ```bash

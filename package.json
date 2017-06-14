@@ -1,6 +1,6 @@
 {
   "name": "intensify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "THE BRINGER OF TRUTH! or false",
   "main": "lib/index.js",
   "scripts": {
