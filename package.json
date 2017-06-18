@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "THE BRINGER OF TRUTH! or false",
   "main": "index.js",
+  "scripts": {
+    "yarn": "node ./node_modules/yarn/bin/yarn"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jonhni/intensify"
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/jonhni/intensify"
   },
-  "homepage": ""
+  "homepage": "",
+  "devDependencies": {
+   "yarn": "0.26.0" 
+  }
 }
