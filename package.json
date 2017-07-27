@@ -1,10 +1,10 @@
 {
   "name": "intensify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "THE BRINGER OF TRUTH! or false",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/ava/cli.js tests.js"
+    "test": "ava tests.js"
   },
   "repository": {
     "type": "git",
