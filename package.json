@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "THE BRINGER OF TRUTH! or false",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/ava/cli.js tests.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jonhni/intensify"
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/jonhni/intensify"
   },
-  "homepage": ""
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
 }
